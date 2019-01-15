@@ -1,0 +1,7 @@
+[package]
+name = "weird-echo"
+version = "0.1.0"
+authors = ["Jonathan Dahan <hi@jonathan.is>"]
+edition = "2018"
+
+[dependencies]
