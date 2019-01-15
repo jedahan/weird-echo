@@ -26,6 +26,7 @@ fn main() -> Result<(), std::io::Error> {
               println!("{}", messages[1]);
               println!("{}", messages[2]);
               println!();
+              // when last_message goes out of scope here, input should be dropped
             }
         }
 
